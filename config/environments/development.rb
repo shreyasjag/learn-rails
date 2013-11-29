@@ -31,7 +31,7 @@ LearnRails::Application.configure do
   domain: ENV["DOMAIN_NAME"], 
   authentication: "plain", 
   enable_starttls_auto: true, 
-  user_name: ENV["shreyas.jaganmohan"], 
+  user_name: ENV["shreyas.jaganmohan@gmail.com"], 
   password: ENV["IdamanForever"]
   }
   config.action_mailer.perform_deliveries = true
